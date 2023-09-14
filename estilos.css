@@ -19,9 +19,36 @@ body {
   font-size: 42px;
   color: var(--color-primary);
   display: block;
+  width: 100%;
+}
+
+.titulo-contenedor {
   position: relative;
 }
 
+.titulo-contenedor-linea {
+  position: absolute;
+  width: 100%;
+  background-color: var(--color-secundary);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+}
+
 #imagen {
-  height: 550px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.img-contenedor {
+  position: relative;
+}
+
+.img-contenedor-linea {
+  position: absolute;
+  background-color: var(--color-secundary);
+  height: 15px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
