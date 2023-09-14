@@ -1,4 +1,27 @@
+:root {
+  --color-primary: #21375E;
+  --color-secundary: #CBBB3A;
+}
+
+* {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  background-color: #f5f6f7;
+}
+
+.titulo {
+  font-size: 42px;
+  color: var(--color-primary);
+  display: block;
+  position: relative;
+}
+
+#imagen {
+  height: 550px;
 }
